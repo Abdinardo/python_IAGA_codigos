@@ -19,7 +19,7 @@ listas.append([7,17])
 listas.append([8,18])
 
 print("{",end="")
-print(f"0:10, 1:2, 2:7, 3:8, 4:5, 5:3, 6:22, 7:17, 8:18",end="")
+print("0:10, 1:2, 2:7, 3:8, 4:5, 5:3, 6:22, 7:17, 8:18",end="")
 print("}",end="\n\n")
 
 contador = 0
@@ -89,8 +89,8 @@ posMenor = lista.index(menor)
 maior = max(lista)
 posMaior = lista.index(maior)
 print()
-print(f"Menor elemento, x[%d] = %d" % (posMenor, menor),end="\n")
-print(f"Maior elemento, x[%d] = %d" % (posMaior, maior))
+print("Menor elemento, x[%d] = %d" % (posMenor, menor),end="\n")  # noqa: UP031
+print("Maior elemento, x[%d] = %d" % (posMaior, maior))  # noqa: UP031
 
 #Questão 9
 valor = int(input())
